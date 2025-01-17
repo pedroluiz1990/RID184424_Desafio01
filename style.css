@@ -1,0 +1,114 @@
+body {
+    font-family: 'inter';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.stat p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.about {
+    padding: 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.about p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.contact {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact h2 {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact label {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.contact input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 80%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #f90;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #e80;
+}
